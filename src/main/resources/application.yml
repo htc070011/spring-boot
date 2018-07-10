@@ -1,20 +1,31 @@
-#server:
-#  port: 8081
-#person:
-#
-#  age: 22
-#  date: 2018/7/1
-#  map: {k1: v1, k2: v2}
-#  list:
-#    - lisi
-#    - zhaoliu
-#  boss: false
-#  last-name: Zhang
-#  dog:
-#    name: xiaogou
-#    age: 2
+server:
+  port: 8081
+
+person:
+
+  age: ${random.int}
+  date: 2018/7/1
+  map: {k1: v1, k2: v2}
+  list:
+    - lisi
+    - zhaoliu
+  boss: false
+  last-name: Zhang
+  dog:
+    name: ${person.last-name}_dog
+    age: 2
 
 
-
-
-
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8081
+spring:
+  profiles: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: prod
