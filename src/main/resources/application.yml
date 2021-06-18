@@ -8,7 +8,7 @@ person:
   map: {k1: v1, k2: v2}
   list:
     - lisi
-    - zhaoliu
+    - wangwu
   boss: false
   last-name: Zhang
   dog:
