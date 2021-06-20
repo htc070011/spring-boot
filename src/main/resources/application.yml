@@ -13,7 +13,7 @@ person:
   last-name: Zhang
   dog:
     name: ${person.last-name}_dog
-    age: 2
+    age: 3
 
 
 spring:
