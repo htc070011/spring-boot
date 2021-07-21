@@ -1,6 +1,6 @@
 ####Spring Boot HelloWorld入门
 
-1. 根据官方文档引入spring-boot-starter-parent依赖以及spring-boot-starter-web依赖
+8. 根据官方文档引入spring-boot-starter-parent依赖以及spring-boot-starter-web依赖
 
 2. 创建主应用类HelloWorldMainApplication，并使用@SpringBootApplication修饰
 
