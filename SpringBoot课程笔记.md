@@ -22,6 +22,8 @@
 
 ####@SpringBootApplication注解详解
 
+#### test
+
 1. @SpringBootApplication是一个组合注解，首先，其包含@SpringBootConfiguration，表示被该注解修饰的类一个配置类(@Configuation其实也是一个@Component)
 
 ```java
